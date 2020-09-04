@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rye&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="lib/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="background">
+      <div class="row m-0">
+        <div class="col-lg-12">
+          <form action="">
+            <p>
+              <label for="image-url">Select Image Url: </label>
+              <input type="text" id="image-url" />
+            </p>
+            <p>
+              <label for="top-text">Enter Top Text: </label>
+              <input type="text" id="top-text" />
+            </p>
+            <p>
+              <label for="top-font-size">Select Top Text font size: </label>
+              <input type="range" id="top-font-size" min="10" max="150" />
+            </p>
+            <p>
+              <label for="bottom-text">Enter Bottom Text: </label>
+              <input type="text" id="bottom-text" />
+            </p>
+            <p>
+              <label for="bottom-font-size">
+                Select Bottom Text font size:
+              </label>
+              <input type="range" id="bottom-font-size" min="10" max="150" />
+            </p>
+            <p>
+              <label for="color">Pick a color: </label>
+              <input type="color" id="color" />
+            </p>
+            <button>Generate</button>
+            <section id="memes"></section>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="lib/script.js"></script>
+    <script src="lib/localStorage.js"></script>
+  </body>
+  <!-- JS, Popper.js, and jQuery -->
+  <script
+    src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://kit.fontawesome.com/8311178a58.js"
+    crossorigin="anonymous"
+  ></script>
+</html>
