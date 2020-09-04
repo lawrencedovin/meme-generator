@@ -1,0 +1,17 @@
+#meme {
+    background-size: contain; /* constrain image within container, stretch/scale as needed */
+    background-position: center center; /* centered horizontally and vertically */
+    background-repeat: no-repeat; /* don't repeat */
+    height: 20rem;
+    padding: 0;
+    text-align: center;
+    margin-top: 5rem;
+    position: relative;
+}
+
+.bottom-text {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}

@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>To-Do</title>
+    <title>Meme Generator</title>
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -22,41 +22,37 @@
   </head>
 
   <body>
-    <div class="background">
-      <div class="row m-0">
-        <div class="col-lg-12">
-          <form action="">
-            <p>
-              <label for="image-url">Select Image Url: </label>
-              <input type="text" id="image-url" />
-            </p>
-            <p>
-              <label for="top-text">Enter Top Text: </label>
-              <input type="text" id="top-text" />
-            </p>
-            <p>
-              <label for="top-font-size">Select Top Text font size: </label>
-              <input type="range" id="top-font-size" min="10" max="150" />
-            </p>
-            <p>
-              <label for="bottom-text">Enter Bottom Text: </label>
-              <input type="text" id="bottom-text" />
-            </p>
-            <p>
-              <label for="bottom-font-size">
-                Select Bottom Text font size:
-              </label>
-              <input type="range" id="bottom-font-size" min="10" max="150" />
-            </p>
-            <p>
-              <label for="color">Pick a color: </label>
-              <input type="color" id="color" />
-            </p>
-            <button>Generate</button>
-            <section id="memes"></section>
-          </form>
-        </div>
-      </div>
+    <div id="container">
+      <form action="">
+        <p>
+          <label for="image-url">Select Image Url: </label>
+          <input type="text" id="image-url" />
+        </p>
+        <p>
+          <label for="top-text">Enter Top Text: </label>
+          <input type="text" id="top-text" />
+        </p>
+        <p>
+          <label for="top-font-size">Select Top Text font size: </label>
+          <input type="range" id="top-font-size" min="10" max="150" />
+        </p>
+        <p>
+          <label for="bottom-text">Enter Bottom Text: </label>
+          <input type="text" id="bottom-text" />
+        </p>
+        <p>
+          <label for="bottom-font-size"> Select Bottom Text font size: </label>
+          <input type="range" id="bottom-font-size" min="10" max="150" />
+        </p>
+        <p>
+          <label for="color">Pick a color: </label>
+          <input type="color" id="color" />
+        </p>
+        <button>Generate</button>
+        <section id="meme">
+          
+        </section>
+      </form>
     </div>
     <script src="lib/script.js"></script>
     <script src="lib/localStorage.js"></script>
