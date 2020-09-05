@@ -67,17 +67,16 @@
             <div class="input-group-prepend">
               <span class="input-group-text" id="">Image Url</span>
             </div>
-            <input type="text" class="form-control" />
+            <input type="text" class="form-control" id="image-url" />
           </div>
-          <div class="input-group mb-3"">
+          <div class="input-group mb-3">
             <div class="input-group-prepend">
-              <span class="input-group-text" id="">Top and Bottom text</span>
+              <span class="input-group-text">Top and Bottom text</span>
             </div>
-            <input type="text" class="form-control" />
-            <input type="text" class="form-control" />
+            <input type="text" class="form-control" id="top-text-input" />
+            <input type="text" class="form-control" id="bottom-text-input" />
           </div>
-
-          <div class="input-group mb-3"">
+          <div class="input-group mb-3">
             <div class="input-group-prepend">
               <span class="input-group-text">Top Font Size</span>
             </div>
@@ -86,7 +85,7 @@
               <span class="input-group-text">px</span>
             </div>
           </div>
-          <div class="input-group mb-3"">
+          <div class="input-group mb-3">
             <div class="input-group-prepend">
               <span class="input-group-text">Bottom Font Size</span>
             </div>
@@ -95,15 +94,14 @@
               <span class="input-group-text">px</span>
             </div>
           </div>
-          <input type="color" id="color" class="mb-5"/><br>
-          <button type="button" class="btn">Generate Meme</button>
+          <input type="color" id="color" class="mb-5" /><br />
+          <button class="btn">Generate Meme</button>
         </div>
-        <!-- <div class="col-md-6"> -->
         <div class="col-md-6">
-            <div id="meme">
-              <p id="top-text">99 problems but</p>
-              <p id="bottom-text">a good boi ain't 1</p>
-            </div>
+          <div id="meme">
+            <p id="top-text"></p>
+            <p id="bottom-text"></p>
+          </div>
         </div>
       </div>
     </form>
