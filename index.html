@@ -21,8 +21,8 @@
     />
   </head>
 
-  <body>
-    <form action="" id="meme-form">
+  <body class="container h-100 d-flex justify-content-center">
+    <!-- <form action="" id="meme-form">
       <p>
         <label for="image-url">Select Image Url: </label>
         <input type="text" id="image-url" />
@@ -47,11 +47,65 @@
         <label for="color">Pick a color: </label>
         <input type="color" id="color" />
       </p>
+      <div class="input-group">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="">First and last name</span>
+        </div>
+        <input type="text" class="form-control">
+      </div>
       <button>Generate</button>
       <section id="meme">
         <p id="top-text"></p>
         <p id="bottom-text"></p>
       </section>
+    </form> -->
+    <form action="" id="meme-form">
+      <h1 id="title">MEME GENERATOR</h1>
+      <div class="row">
+        <div class="col-6">
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="">Image Url</span>
+            </div>
+            <input type="text" class="form-control" />
+          </div>
+          <div class="input-group mb-3"">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="">Top and Bottom text</span>
+            </div>
+            <input type="text" class="form-control" />
+            <input type="text" class="form-control" />
+          </div>
+
+          <div class="input-group mb-3"">
+            <div class="input-group-prepend">
+              <span class="input-group-text">Top Font Size</span>
+            </div>
+            <input type="text" class="form-control" id="top-font-size" />
+            <div class="input-group-append">
+              <span class="input-group-text">px</span>
+            </div>
+          </div>
+          <div class="input-group mb-3"">
+            <div class="input-group-prepend">
+              <span class="input-group-text">Bottom Font Size</span>
+            </div>
+            <input type="text" class="form-control" id="bottom-font-size" />
+            <div class="input-group-append">
+              <span class="input-group-text">px</span>
+            </div>
+          </div>
+          <input type="color" id="color" class="mb-5"/><br>
+          <button type="button" class="btn">Generate Meme</button>
+        </div>
+        <!-- <div class="col-md-6"> -->
+        <div class="col-md-6">
+            <div id="meme">
+              <p id="top-text">99 problems but</p>
+              <p id="bottom-text">a good boi ain't 1</p>
+            </div>
+        </div>
+      </div>
     </form>
     <script src="lib/script.js"></script>
     <script src="lib/localStorage.js"></script>
