@@ -1,3 +1,29 @@
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    /* background: -webkit-gradient(linear, center top, center bottom, from(#563D7C), to(#8A3DFE)) fixed; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#meme-form, .input-group-text, .btn, .btn:hover {
+    color: #fff;
+}
+
+#meme-form {
+    background: #fff;
+    padding: 40px;
+    width: 75vw;
+}
+
+.input-group-text, .btn {
+    background: #563D7C;
+}
+
 #meme {
     background-size: contain;
     background-position: center;
@@ -16,32 +42,6 @@
     bottom: 0;
     left: 0;
     right: 0;
-}
-
-html, body{
-    height: 100%;
-    width: 100%;
-}
-
-body {
-    background: -webkit-gradient(linear, center top, center bottom, from(#563D7C), to(#8A3DFE)) fixed;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#meme-form, .input-group-text, .btn, .btn:hover {
-    color: #fff;
-}
-
-#meme-form {
-    background: #fff;
-    padding: 40px;
-    width: 75vw;
-}
-
-.input-group-text, .btn {
-    background: #563D7C;
 }
 
 #title {
@@ -75,6 +75,10 @@ body {
     border-radius: 4px;
     padding: 0;
   }
+
+.btn {
+    margin-bottom: 40px;
+}
 
 .btn:hover {
     background: #8A3DFE;
