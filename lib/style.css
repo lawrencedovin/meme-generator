@@ -1,7 +1,7 @@
 #meme {
-    background-size: contain; /* constrain image within container, stretch/scale as needed */
-    background-position: center center; /* centered horizontally and vertically */
-    background-repeat: no-repeat; /* don't repeat */
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
     height: 20rem;
     padding: 0;
     text-align: center;
