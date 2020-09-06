@@ -11,7 +11,10 @@ body {
     justify-content: center;
 }
 
-#meme-form, .input-group-text, .btn, .btn:hover {
+#meme-form, 
+.input-group-text, 
+.btn, 
+.btn:hover {
     color: #fff;
 }
 
@@ -21,7 +24,8 @@ body {
     width: 75vw;
 }
 
-.input-group-text, .btn {
+.input-group-text, 
+.btn {
     background: #563D7C;
 }
 
@@ -45,7 +49,8 @@ body {
     right: 0;
 }
 
-#title, .btn {
+#title, 
+.btn {
     margin-bottom: 40px;
 }
 
@@ -55,7 +60,8 @@ body {
     text-align: center;
 }
 
-#top-font-size, #bottom-font-size {
+#top-font-size, 
+#bottom-font-size {
     max-width: 48px;
 }
 
