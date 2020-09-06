@@ -1,10 +1,11 @@
 html, body{
     height: 100%;
     width: 100%;
+    transition: background 0.25s ease-out;
 }
 
 body {
-    /* background: -webkit-gradient(linear, center top, center bottom, from(#563D7C), to(#8A3DFE)) fixed; */
+    background: -webkit-gradient(linear, center top, center bottom, from(#563D7C), to(#8A3DFE)) fixed;
     display: flex;
     align-items: center;
     justify-content: center;
