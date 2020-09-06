@@ -45,10 +45,13 @@ body {
     right: 0;
 }
 
+#title, .btn {
+    margin-bottom: 40px;
+}
+
 #title {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     -webkit-text-stroke: 2px black;
-    margin-bottom: 48px;
     text-align: center;
 }
 
@@ -56,29 +59,18 @@ body {
     max-width: 48px;
 }
 
+#color, 
+#color::-webkit-color-swatch, 
+#color::-webkit-color-swatch-wrapper {
+    border: none;
+    border-radius: 4px;
+    padding: 0;
+}
+
 #color {
     -webkit-appearance: none;
-    padding: 0;
-    border: none;
-    border-radius: 4px;
     height: 38px;
     width: 38px;
-  }
-
-  #color::-webkit-color-swatch {
-    border: none;
-    border-radius: 4px;
-    padding: 0;
-  }
-
-  #color::-webkit-color-swatch-wrapper {
-    border: none;
-    border-radius: 4px;
-    padding: 0;
-  }
-
-.btn {
-    margin-bottom: 40px;
 }
 
 .btn:hover {
