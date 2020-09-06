@@ -24,6 +24,10 @@ body {
     width: 75vw;
 }
 
+#left-form-container {
+    margin-top: 0.4rem;
+}
+
 .input-group-text, 
 .btn {
     background: #563D7C;
